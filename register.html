@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="resource/register.css">
+    <title>Register</title>
+</head>
+<body>
+<header>
+    <div class="logo">
+        <span>TWITTER</span>
+    </div>
+    <div class="navbar">
+        <ul>
+            <li><a href="#">Tweets</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="#">Register</a></li>
+        </ul>
+    </div>
+</header>
+<div class="container">
+    <form>
+        <div class="form-group">
+            <label>EMAIL :
+                <br>
+                <input id="email" type="email">
+            </label>
+        </div>
+        <div class="form-group">
+            <label>PASSWORD :
+                <br>
+                <input id="password" type="password">
+            </label>
+        </div>
+        <div class="form-group">
+            <label>FULL NAME :
+                <br>
+                <input id="full-name" type="text">
+            </label>
+        </div>
+        <div class="form-group">
+            <label>COUNTRY :
+                <br>
+                <select id="country">
+                    <option>Kazakhstan</option>
+                    <option>Uzbekistan</option>
+                    <option>Kyrgyzstan</option>
+                    <option>USA</option>
+                    <option>Russia</option>
+                </select>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>BIRTHDATE :
+                <br>
+                <input id="birthdate" type="date">
+            </label>
+        </div>
+
+        <button type="submit" onclick="saveToStorage()"><a href="login.html">REGISTER</a></button>
+    </form>
+</div>
+
+<script src="ll.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="resource/login.css">
+    <title>Sign in</title>
+</head>
+<body>
+<header>
+    <div class="logo">
+        <span>TWITTER</span>
+    </div>
+    <div class="navbar">
+        <ul>
+            <li><a href="#">Tweets</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+        </ul>
+    </div>
+</header>
+<div class="container">
+    <form onsubmit="checkPassword()">
+        <div class="form-group">
+            <label>EMAIL :
+                <br>
+                <input id="sign-in-email" type="email">
+            </label>
+        </div>
+        <div class="form-group">
+            <label>PASSWORD :
+                <br>
+                <input id="sign-in-pass" type="password">
+            </label>
+        </div>
+
+        <button type="reset" onclick="checkPassword()">SIGN IN</button>
+    </form>
+</div>
+<script src="ll.js"></script>
+</body>
+</html>
